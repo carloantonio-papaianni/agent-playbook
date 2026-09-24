@@ -8,7 +8,7 @@ I'm not an engineer. The agents write all of the code. What I've built is a way 
 
 - **A planning chat (Claude).** It reads the state of the project, reasons with me, and writes the brief for the next work session. It never writes code and never commits.
 - **Claude Code.** It executes one brief per session on a Linux desktop, commits, pushes, and writes a report.
-- **ChatGPT.** A blind second opinion. When I needed to know whether a set of reference answers held up, I gave it the same questions without our answers and compared them element by element.
+- **ChatGPT Codex.** A blind second opinion. When I needed to know whether a set of reference answers held up, I gave it the same questions without our answers and compared them element by element.
 - **A laptop as the cockpit, a desktop as the workshop.** Git is the only channel between them. A small script syncs the laptop, delivers new briefs to the desktop, and writes down which commit it saw and when.
 
 ## The loop
